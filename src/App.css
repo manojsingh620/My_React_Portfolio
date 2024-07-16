@@ -1,0 +1,5 @@
+.active {
+    background-color: #f56565; /* Tailwind's red-500 */
+    color: white;
+    border-bottom: 2px solid #f56565; /* Tailwind's red-500 */
+}
