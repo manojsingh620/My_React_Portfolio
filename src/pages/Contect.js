@@ -5,8 +5,8 @@ import { FiYoutube } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa6";
 import { FiGithub } from "react-icons/fi";
 import { FaTwitter } from "react-icons/fa";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import {  toast } from 'react-toastify';
+
 
 const Contect = () => {
 
@@ -92,12 +92,13 @@ const Contect = () => {
             </div>
 
             <div className="flex justify-center items-center">
-              <button className="border px-4 py-1 rounded-full hover:border-red-600 hover:border-2 ">
+              <button type="submit" className="border px-4 py-1 rounded-full hover:border-red-600 hover:border-2 ">
                 Submit
               </button>
-              <ToastContainer />
+              {/* <ToastContainer /> */}
             </div>
           </form>
+          <div className="text-center text-white font-bold">{result}</div>
         </div>
 
         <div className=" max-w-md my-10">
