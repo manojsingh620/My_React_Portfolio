@@ -11,7 +11,7 @@ const Sidebar = ({onclose}) => {
           <Link to={"/"} onClick={onclose}><p className="p-2 m-2 text-center bg-black text-white rounded ">HOME</p></Link>
           <Link to={"/projects"} onClick={onclose}><p className="p-2 m-2 text-center bg-black text-white rounded ">PROJECTS</p></Link>
           <Link to={"/skills"} onClick={onclose}><p className="p-2 m-2 text-center bg-black text-white rounded ">SKILLS</p></Link>
-          <Link to={"/contect"} onClick={onclose}><p className="p-2 m-2 text-center bg-black text-white rounded ">CONTECT</p></Link>
+          <Link to={"/contect"} onClick={onclose}><p className="p-2 m-2 text-center bg-black text-white rounded ">CONTACT</p></Link>
         </div>
 
         <div className="">
